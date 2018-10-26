@@ -1,0 +1,1 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"><solid android:color="#ffffffff" /><corners android:bottomRightRadius="24dp" android:bottomLeftRadius="24dp" android:topLeftRadius="24dp" android:topRightRadius="24dp" /></shape>

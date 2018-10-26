@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <Toolbar
+        android:theme="@style/ToolBarStyle"
+        android:popupTheme="@style/ToolBarStyle"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary"
+        android:minWidth="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar">
+        
+     </Toolbar>
+    
+    
+  
+    <com.applandeo.materialcalendarview.CalendarView
+        app:headerColor="@color/color_main"
+        app:selectionColor="@color/color_main"
+                android:id="@+id/calendar"
+        android:layout_below="@id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+      <android.support.v7.widget.RecyclerView
+                android:layout_below="@id/calendar"
+                android:id="@+id/recyclerView"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+  
+</RelativeLayout>
+
+
